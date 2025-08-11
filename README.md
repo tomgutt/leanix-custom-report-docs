@@ -2,7 +2,7 @@
 
 This repository hosts documentation and code examples for building LeanIX Custom Reports.
 
-- docs/: Guides and reference documentation (more topics will be added over time)
+- docs/: Guides and reference documentation
 - examples/: Runnable example projects demonstrating common setups and patterns
 
 ### Get started
@@ -15,7 +15,3 @@ Choose the path that fits your situation:
   - docs/get-started/vite-plugin.md
 - Existing web app (non‑Vite): Integrate the LeanIX reporting runtime without changing your bundler.
   - docs/get-started/existing-web-app.md
-
-More guides will be added under docs/ beyond getting started (e.g., configuration, data APIs, deployment, and troubleshooting).
-
-
