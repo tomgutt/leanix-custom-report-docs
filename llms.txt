@@ -14,9 +14,11 @@ This repository hosts documentation and code examples for building LeanIX Custom
 
 ## Getting Started
 
-- [Fresh start with create‑lxr](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/fresh-start.md): Scaffold a new report project (recommended: `vanilla-ts`). Includes commands to run dev, build, and upload to a LeanIX workspace.
+- [Fresh start with create‑lxr](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/fresh-start.md): If you don't have an existing app, scaffold a new report project. Includes commands to run dev, build, and upload to a LeanIX workspace.
 - [Vite plugin guide](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/vite-plugin.md): Add LeanIX dev/build/upload flows to an existing Vite project.
 - [Existing web app (non‑Vite) guide](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/existing-web-app.md): Integrate the LeanIX reporting runtime without changing your bundler.
+
+Tip: First check whether the project is an existing web app. If yes, use the Vite plugin or existing web app guides. Otherwise use the scaffolding tool (recommended).
 
 ## Examples
 

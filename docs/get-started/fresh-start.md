@@ -35,23 +35,36 @@ Common items to delete after scaffolding:
 
 ### Recommended golden path
 
-If you are unsure which template to choose, select the vanilla TypeScript preset (`vanilla-ts`). It provides the smallest, framework‑agnostic starting point with TypeScript enabled, making it easy to integrate LeanIX reporting APIs and add any UI library later as needed.
+If you are unsure which template to choose, select the vanilla TypeScript preset. In the prompts, choose:
+- Framework: Vanilla
+- Variant: TypeScript
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a LeanIX Custom Report using the recommended vanilla TypeScript template, run:
+### Run the scaffolding (interactive)
+
+Run the CLI and follow the prompts. A terminal UI will open; fill in the requested fields.
 
 ```bash
-# npm 6.x
-npm init lxr@latest my-custom-report --template vanilla-ts
-
-# npm 7+, extra double-dash is needed:
-npm init lxr@latest my-custom-report -- --template vanilla-ts
-
-# yarn
-yarn create lxr my-custom-report --template vanilla-ts
-
-# pnpm
-pnpx create-lxr my-custom-report --template vanilla-ts
+npm init lxr@latest
 ```
+
+Example of the interactive prompts (for reference):
+
+```
+LeanIX Custom Report Scaffolding Tool v1.1.4
+
+✔ Project name: … leanix-custom-report
+✔ Select a framework: › Vanilla
+✔ Select a variant: › TypeScript
+✔ Unique id for this report in Java package notation (e.g. net.leanix.barcharts) … my.unique.id
+✔ Who is the author of this report (e.g. LeanIX GmbH) … John Doe
+✔ A title to be shown in LeanIX when report is installed … Custom Report Title
+✔ Description of your project … Custom Report Description
+✔ Which host do you want to work with? … demo-eu-1.leanix.net
+✔ API-Token for Authentication (see: https://dev.leanix.net/docs/authentication#section-generate-api-tokens) … F235...
+✔ Are you behind a proxy? … No / Yes
+```
+
+Note: An AI coding assistant cannot answer these organization-specific prompts automatically, but this shows exactly what will be asked so you can prepare the values.
 
 ### After scaffolding: common commands
 
