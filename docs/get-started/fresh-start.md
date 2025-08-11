@@ -37,20 +37,20 @@ Common items to delete after scaffolding:
 
 If you are unsure which template to choose, select the vanilla TypeScript preset (`vanilla-ts`). It provides the smallest, framework‑agnostic starting point with TypeScript enabled, making it easy to integrate LeanIX reporting APIs and add any UI library later as needed.
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a LeanIX Custom Report using Vue, run:
+You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a LeanIX Custom Report using the recommended vanilla TypeScript template, run:
 
 ```bash
 # npm 6.x
-npm init lxr@latest my-custom-report --template vue
+npm init lxr@latest my-custom-report --template vanilla-ts
 
 # npm 7+, extra double-dash is needed:
-npm init lxr@latest my-custom-report -- --template vue
+npm init lxr@latest my-custom-report -- --template vanilla-ts
 
 # yarn
-yarn create lxr my-custom-report --template vue
+yarn create lxr my-custom-report --template vanilla-ts
 
 # pnpm
-pnpx create-lxr my-custom-report --template vue
+pnpx create-lxr my-custom-report --template vanilla-ts
 ```
 
 Currently supported template presets include:
