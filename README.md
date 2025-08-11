@@ -1,5 +1,7 @@
 ## LeanIX Custom Reports – Documentation
 
+[![GitMCP](https://img.shields.io/endpoint?url=https://gitmcp.io/badge/tomgutt/leanix-custom-report-docs)](https://gitmcp.io/tomgutt/leanix-custom-report-docs)
+
 This repository hosts documentation and code examples for building LeanIX Custom Reports.
 
 - docs/: Guides and reference documentation
