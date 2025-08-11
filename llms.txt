@@ -1,0 +1,25 @@
+# LeanIX Custom Reports – Documentation
+
+> Documentation and examples for building LeanIX Custom Reports.
+
+This repository hosts documentation and code examples for building LeanIX Custom Reports.
+
+- `docs/`: Guides and reference documentation (more topics will be added over time)
+- `examples/`: Runnable example projects demonstrating common setups and patterns
+
+## Documentation
+
+- [Repository README](https://github.com/tomgutt/leanix-custom-report-docs#readme): Overview and entry points
+- [Docs directory](https://github.com/tomgutt/leanix-custom-report-docs/tree/main/docs): All documentation
+
+## Getting Started
+
+- [Fresh start with create‑lxr](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/fresh-start.md): Scaffold a new report project (recommended: `vanilla-ts`). Includes commands to run dev, build, and upload to a LeanIX workspace.
+- [Vite plugin guide](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/vite-plugin.md): Add LeanIX dev/build/upload flows to an existing Vite project.
+- [Existing web app (non‑Vite) guide](https://github.com/tomgutt/leanix-custom-report-docs/blob/main/docs/get-started/existing-web-app.md): Integrate the LeanIX reporting runtime without changing your bundler.
+
+## Examples
+
+- [Examples directory](https://github.com/tomgutt/leanix-custom-report-docs/tree/main/examples): Runnable example projects.
+
+
