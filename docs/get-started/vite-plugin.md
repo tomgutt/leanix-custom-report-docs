@@ -1,4 +1,4 @@
-# vite-plugin-lxr
+# Vite plugin (vite-plugin-lxr)
 
 A Vite plugin for developing LeanIX Custom Reports.
 
@@ -81,7 +81,11 @@ npm install vite vite-plugin-lxr
 }
 ```
 
+Security note: Make sure to add `lxr.json` to your `.gitignore` file. 
+
 8. You are now ready to start developing your report by issuing the following command
 ```bash
 npm run dev
 ```
+
+[← Back to Start here](./index.md)

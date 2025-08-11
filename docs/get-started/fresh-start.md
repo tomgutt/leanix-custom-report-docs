@@ -1,9 +1,9 @@
-# create-lxr
+# Fresh start with create-lxr
 
 ## Scaffolding Your First LeanIX Custom Report
 
 > **Compatibility Note:**
-> Requires [Node.js](https://nodejs.org/en/) version >=12.0.0.
+> Requires [Node.js](https://nodejs.org/en/) 18+ (LTS).
 
 With NPM:
 
@@ -53,3 +53,6 @@ Currently supported template presets include:
 - `preact-ts`
 - `svelte`
 - `svelte-ts`
+
+
+[← Back to Start here](./index.md)

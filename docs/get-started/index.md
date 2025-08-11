@@ -4,7 +4,7 @@ Choose the path that matches your situation to build and run a LeanIX Custom Rep
 
 ## Prerequisites
 
-- Node.js and a package manager (npm, Yarn, or PNPM)
+- Node.js 18+ (LTS) and a package manager (npm, Yarn, or PNPM)
 - A LeanIX workspace (credentials and local dev details are covered in the linked guides)
 
 ## Pick your path
@@ -19,7 +19,7 @@ Choose the path that matches your situation to build and run a LeanIX Custom Rep
 
 - I have an existing web app that does not use Vite (e.g., webpack, CRA, Angular CLI, Next.js, etc.)
   - Add the LeanIX reporting runtime to integrate with LeanIX without changing your bundler.
-  - Go to: [Existing webapp (non‑Vite) guide](./existing-webapp.md)
+  - Go to: [Existing web app (non‑Vite) guide](./existing-web-app.md)
 
 ## What each option gives you
 
@@ -39,4 +39,4 @@ Choose the path that matches your situation to build and run a LeanIX Custom Rep
 
 - [Fresh start with create-lxr](./fresh-start.md)
 - [Vite plugin guide](./vite-plugin.md)
-- [Existing webapp (non‑Vite) guide](./existing-webapp.md)
+- [Existing web app (non‑Vite) guide](./existing-web-app.md)
