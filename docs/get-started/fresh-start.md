@@ -25,6 +25,18 @@ $ pnpx create-lxr
 
 Then follow the prompts!
 
+### Template contents and cleanup
+
+The scaffolder includes template artifacts (e.g., a hello‑world page/component, demo styles, and example code/tests) to verify the setup. After creating your project, remove these artifacts so you start from a clean slate before implementing your report logic.
+
+Common items to delete after scaffolding:
+- Demo pages/components and placeholder styles
+- Example utilities/tests that are only there to showcase the template
+
+### Recommended golden path
+
+If you are unsure which template to choose, select the vanilla TypeScript preset (`vanilla-ts`). It provides the smallest, framework‑agnostic starting point with TypeScript enabled, making it easy to integrate LeanIX reporting APIs and add any UI library later as needed.
+
 You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a LeanIX Custom Report using Vue, run:
 
 ```bash
