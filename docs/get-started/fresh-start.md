@@ -55,4 +55,4 @@ Currently supported template presets include:
 - `svelte-ts`
 
 
-[← Back to Start here](./index.md)
+[← Back to README](../../README.md)

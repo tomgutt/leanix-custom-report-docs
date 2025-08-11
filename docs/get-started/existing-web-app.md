@@ -84,4 +84,4 @@ Include the library in your HTML and initialize:
 - `lx is not defined`: ensure `@leanix/reporting` is imported (ESM) or the script tag is included before your initialization code.
 - Stuck on `lx.init()`: the page is not running inside the LeanIX host. Use the official dev flow, or switch to the Vite plugin path for local iteration.
 
-[← Back to Start here](./index.md)
+[← Back to README](../../README.md)

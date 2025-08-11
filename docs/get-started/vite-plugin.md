@@ -88,4 +88,4 @@ Security note: Make sure to add `lxr.json` to your `.gitignore` file.
 npm run dev
 ```
 
-[← Back to Start here](./index.md)
+[← Back to README](../../README.md)
