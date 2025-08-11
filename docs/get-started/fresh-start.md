@@ -41,7 +41,7 @@ If you are unsure which template to choose, select the vanilla TypeScript preset
 
 ### Run the scaffolding (interactive)
 
-Run the CLI and follow the prompts. A terminal UI will open; fill in the requested fields.
+Run the CLI and follow the prompts. A terminal UI will open; fill in the requested fields. The tool scaffolds a Vite-based project with the LeanIX Vite plugin and npm scripts (dev/build/upload) preconfigured.
 
 ```bash
 npm init lxr@latest

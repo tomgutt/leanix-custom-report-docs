@@ -2,6 +2,8 @@
 
 A Vite plugin for developing LeanIX Custom Reports.
 
+Note: This guide is only for existing Vite projects. If you are starting a new project, use the scaffolding tool instead and follow the fresh-start guide: `../get-started/fresh-start.md`.
+
 ## Get Started
 
 1. Install vite and this plugin with your favorite package manager, here use npm as example:
