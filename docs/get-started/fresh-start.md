@@ -53,6 +53,27 @@ yarn create lxr my-custom-report --template vanilla-ts
 pnpx create-lxr my-custom-report --template vanilla-ts
 ```
 
+### After scaffolding: common commands
+
+The scaffolding includes the Vite plugin and scripts. Use these commands:
+
+```bash
+# Start the local dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Build and upload the report to your LeanIX workspace
+npm run upload
+```
+
+Workspace access required:
+- Your LeanIX workspace domain (e.g., `demo-eu.leanix.net`)
+- A LeanIX API Token or Technical User token
+
+Configure these using the CLI tool.
+
 Currently supported template presets include:
 
 - `vanilla`
