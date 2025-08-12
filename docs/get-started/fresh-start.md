@@ -99,6 +99,3 @@ Currently supported template presets include:
 - `preact-ts`
 - `svelte`
 - `svelte-ts`
-
-
-[← Back to README](../../README.md)
