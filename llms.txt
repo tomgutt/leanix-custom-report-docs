@@ -20,6 +20,6 @@ This repository hosts documentation and code examples for building LeanIX Custom
 
 Tip: First check whether the project is an existing web app. If yes, use the Vite plugin or existing web app guides. Otherwise use the scaffolding tool (recommended).
 
-## Examples
+## Code Examples
 
 - [Examples directory](https://github.com/tomgutt/leanix-custom-report-docs/tree/main/examples): Runnable example projects.
