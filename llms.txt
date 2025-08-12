@@ -23,5 +23,3 @@ Tip: First check whether the project is an existing web app. If yes, use the Vit
 ## Examples
 
 - [Examples directory](https://github.com/tomgutt/leanix-custom-report-docs/tree/main/examples): Runnable example projects.
-
-
